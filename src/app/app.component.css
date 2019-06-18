@@ -1,0 +1,182 @@
+
+.bodyNav {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.42857;
+  
+  }
+  
+  .pClass {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #333333;
+    line-height: 1.42857;
+  }
+  
+  .nav-tabs {
+    margin-top: -3px;
+    margin-bottom: 10px;
+    margin-left: -8px;
+    margin-right: 0px;
+  }
+  
+  .nav-tabs {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+  }
+  
+  .nav,
+  .nav-tabs {
+    position: relative;
+    background-color: #1b58ba;
+    height: 50px;
+    color: white;
+  }
+  
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+  }
+  
+  nav,
+  .nav-tabs > li > a {
+    font-weight: bolder;
+    color: #0d61ba;
+    text-decoration-line: none;
+    position: relative;
+    display: block;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+  }
+  
+  nav, .nav-tabs > li.active a, nav, .nav-tabs > li.active a:hover, nav,
+  .nav-tabs > li.active a:focus {
+    background-color: #f4f9ff;
+    color: #238eff;
+    font-weight: bolder;
+    text-decoration-line: none;
+  }
+  
+  .tab-content {
+    color: white;
+    background-color: white;
+    padding: 5px 15px;
+  }
+  
+  .tab-content > .tab-pane {
+    display: none;
+  }
+  
+  .tab-content > .active {
+    display: block;
+  }
+  
+  li.active a:before {
+    border-color: #f4f9ff transparent transparent transparent;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    content: "";
+    display: block;
+    left: calc(50% - 10px);
+    position: absolute;
+    width: 0px;
+    top: 18px;
+    z-index: 10;
+  }
+  
+  .siteGuide {
+    background-color: #ddeeff;
+    color: #0d61ba;
+    font-weight: 900;
+    text-decoration-line: none;
+    font-size: 12px;
+    margin-top: 32px;
+    margin-left: 40px;
+    margin-right: -31px;
+  }
+
+
+.siteTopRight1 img, .siteTopRight2 img, .siteTopRight3 img, .siteTopRight4 img, .siteTopRight5 img, .siteTopRight6 img, .siteTopRight7 img {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .siteTopRight7 {
+    position: absolute;
+    font-size: 11px;
+    background-color: #ddeeff;
+    color: #0d61ba;
+    text-decoration-line: none;
+    right: 0;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    height: 21px;
+  }
+  
+  .siteTopRight6 {
+    position: absolute;
+    font-size: 11px;
+    background-color: #ddeeff;
+    color: #0d61ba;
+    text-decoration-line: none;
+    right: 23px;
+    margin-top: 4px;
+  }
+  
+  .siteTopRight5 {
+    position: absolute;
+    font-size: 11px;
+    background-color: #ddeeff;
+    color: #0d61ba;
+    text-decoration-line: none;
+    right: 46px;
+    margin-top: 4px;
+  
+  }
+  
+  .siteTopRight4 {
+    position: absolute;
+    font-size: 11px;
+    background-color: #ddeeff;
+    color: #0d61ba;
+    text-decoration-line: none;
+    right: 69px;
+    margin-top: 4px;
+  }
+  .siteTopRight2{
+    position: absolute;
+    font-size: 11px;
+    background-color: #ddeeff;
+    color: #0d61ba;
+    text-decoration-line: none;
+    right: 92px;
+    margin-top: 4px;
+  }
+  
+  .tab-content {
+    position: relative;
+  }
+  
+  .tab-pane .postImage img {
+    border-radius: 4px;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .tab-pane {
+    border-radius: 25px;
+    color: black;
+    background-color: #d3e4ff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .float-right {
+    float: right;
+  }

@@ -1,0 +1,15 @@
+.title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+img{
+    float: left;
+    width: 300px;
+    height: 200px;
+}

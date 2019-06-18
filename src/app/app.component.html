@@ -1,3 +1,82 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:700&display=swap" rel="stylesheet">
+
+</header>
+<div class="bodyNav">
+  <ul class="nav nav-tabs">
+    <li id="siteLogo">
+      <p class="pClass"><a href="#main-nav" class="open-menu"><img src="./assets/redditIcon.png"></a>{{title}}</p>
+    </li>
+
+    <li class="active siteGuide">
+      <a href="#tab1" (click)="showBest()" data-toggle="tab">Home</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab2" (click)="showHot()" data-toggle="tab">Data Breaches</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab3" (click)="showNew()" data-toggle="tab">Cyber Attacks</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showRising()" data-toggle="tab">Vulnerabilities</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showControversial()" data-toggle="tab">Malware</a>
+    </li>
+    <li class="siteGuide">
+      <a href="#tab4" (click)="showTop()" data-toggle="tab">top</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">Deals</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">Contact</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">Search</a>
+    </li>
+    <li class="siteGuide">
+      <a href="https://en.wikipedia.org/wiki/Reddit" data-toggle="tab">Menu</a>
+    </li>
+    <li class="siteTopRight1">
+      <a href="#tab4" data-toggle="tab">  {{myUserName}}</a>
+    </li>
+    <li class="siteTopRight2">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/facebook.png"></a>
+    </li>
+    <li class="siteTopRight4">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/insta.png"></a>
+    </li>
+    <li class="siteTopRight5">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/linked.png"></a>
+    </li>
+    <li class="siteTopRight6">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/twitter.png"></a>
+    </li>
+    <li class="siteTopRight7">
+      <a href="#tab4" data-toggle="tab"><img src="./assets/youtube.png"></a>
+    </li>
+
+  </ul>
+</div>
+
+<aside class="float-right sidebar">
+  <h2>Right Sidebar</h2>
+  <ul class="list--bare list--item-separator link-primary">
+    <li>
+      <h4><a href="">Item header</a></h4>
+      <p>Item content body.</p>
+    </li>
+    <li>
+      <h4><a href="">Item header</a></h4>
+      <p>Item content body.</p>
+    </li>
+    <li>
+      <h4><a href="">Item header</a></h4>
+      <p>Item content body.</p>
+    </li>
+  </ul>
+</aside>
+<router-outlet></router-outlet>
